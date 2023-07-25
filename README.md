@@ -14,6 +14,7 @@ npx cap sync
 <docgen-index>
 
 * [`echo(...)`](#echo)
+* [`convert(...)`](#convert)
 
 </docgen-index>
 
@@ -31,6 +32,21 @@ echo(options: { value: string; }) => Promise<{ value: string; }>
 | **`options`** | <code>{ value: string; }</code> |
 
 **Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+--------------------
+
+
+### convert(...)
+
+```typescript
+convert(options: { uri: string; }) => Promise<{ base64String: string; }>
+```
+
+| Param         | Type                          |
+| ------------- | ----------------------------- |
+| **`options`** | <code>{ uri: string; }</code> |
+
+**Returns:** <code>Promise&lt;{ base64String: string; }&gt;</code>
 
 --------------------
 
