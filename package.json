@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-heic-converter",
+  "name": "@vorokami/capacitor-heic-converter",
   "version": "1.0.0",
   "description": "Capacitor plugin for converting uri of heic files to base64",
   "main": "dist/plugin.cjs.js",
